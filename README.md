@@ -1,36 +1,36 @@
-# 🍽️ Restaurant Billing System (C++ Project)
+# 🍽️ Restaurant Billing System (Second Semester OOP Project)
 
-This is a **menu-driven Restaurant Billing System** developed in **C++** using Object-Oriented Programming concepts. It helps restaurant staff manage **orders**, generate **bills**, and store data in a file. Built using classes like `MenuItem`, `Order`, and `Restaurant`, the system demonstrates core OOP principles like encapsulation and modularity.
+This is a **menu-driven Restaurant Billing System** developed in **C++** as part of the **Second Semester Object-Oriented Programming Project** for Computer Engineering. The system enables restaurant staff to manage **orders**, generate **bills**, and store order data using file handling. Core OOP concepts like encapsulation and modularity are demonstrated through classes such as `MenuItem`, `Order`, and `Restaurant`.
 
-> 🎓 **Second Semester OOP Project** — Computer Engineering
+> 🎓 **Second Semester Computer Engineering Project**
 
 ---
 
 ## 🛠️ Features
 
-* ➕ Add new customer orders (multiple items allowed)
-* 📝 Edit existing orders
-* ❌ Delete an order
-* 📋 View all current orders
-* 🧾 Generate itemized bill for a specific order
-* 📂 Orders saved to `orders.txt` for basic persistence
+- ➕ Add new customer orders (multiple items per order)
+- 📝 Edit existing orders
+- ❌ Delete orders
+- 📋 View all current orders
+- 🧾 Generate itemized bill for a specific order
+- 📂 Orders saved to `orders.txt` for basic persistence
 
 ---
 
 ## 🧠 Concepts Used
 
-* **Classes and Objects**
-* **Encapsulation**
-* **Modular design**
-* **File handling** (`ofstream`, file writing)
-* **Arrays and Strings**
-* **Switch-case and Loops**
+- Classes and Objects
+- Encapsulation
+- Modular design
+- File handling (`ofstream`, file writing)
+- Arrays and Strings
+- Switch-case and Loops
 
 ---
 
-## 🍔 Menu Items Included
+## 🍔 Menu Items
 
-The menu includes 20 different items ranging from momos, burgers, pizzas, beverages, desserts, etc., with corresponding prices.
+The menu features 20 items, including momos, burgers, pizzas, beverages, and desserts, each with a set price.
 
 Example:
 
@@ -45,13 +45,17 @@ Example:
 
 ## ▶️ How to Run
 
-### 🫮 Compile
+### Requirements
+
+- C++ compiler (e.g., g++)
+
+### Compile
 
 ```bash
 g++ restaurant_billing.cpp -o restaurant_billing
 ```
 
-### 🚀 Run
+### Run
 
 ```bash
 ./restaurant_billing
@@ -61,7 +65,7 @@ g++ restaurant_billing.cpp -o restaurant_billing
 
 ## 📂 File Output Format
 
-All orders are stored in `orders.txt` in the following format:
+Orders are stored in `orders.txt` in the following format:
 
 ```
 CustomerName,TableNo,Item1,Qty1,Item2,Qty2,...,TotalPrice
@@ -87,20 +91,26 @@ Enter your choice:
 
 This project helps students:
 
-* Apply object-oriented design in real-life systems
-* Understand how to model entities (like `Order`, `Item`) using classes
-* Practice file handling and user interaction in console apps
+- Apply object-oriented design to real-world systems
+- Model entities (like `Order`, `MenuItem`) using classes
+- Practice file handling and user interaction in console applications
 
 ---
 
 ## 👨‍💻 Author
 
-**Project by:** Siddharth
-**Semester:** Second
-**Program:** B.E. Computer Engineering
+- **Project by:** Siddharth
+- **Semester:** Second
+- **Program:** B.E. Computer Engineering
 
 ---
 
 ## 📜 License
 
-This project is intended for academic and learning purposes. Feel free to use, modify, and enhance it for your coursework or personal projects.
+This project is intended for academic and learning purposes. You may use, modify, and enhance it for coursework or personal projects.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to faculty and classmates for their support and guidance during this project.
